@@ -1,6 +1,5 @@
  .u-section-1 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/photo-1503951914875-452162b0f3f1.jpg");
-  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -44,6 +43,10 @@
 }
 
 @media (max-width: 1199px) {
+   .u-section-1 {
+    background-position: 50% 50%;
+  }
+
   .u-section-1 .u-sheet-1 {
     min-height: 688px;
   }
@@ -952,7 +955,7 @@
     min-height: 622px;
   }
 } .u-section-5 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Skin-fade-haircut-z_ramsey-1024x1024.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/Skin-fade-haircut-z_ramsey-1024x1024.jpg");
   background-position: 50% 50%;
 }
 
@@ -1094,17 +1097,6 @@
 }
 
 .u-section-6 .u-shape-1 {
-  height: 418px;
-  margin-top: 0;
-  margin-bottom: 0;
-  --animation-custom_in-translate_x: -200px;
-  --animation-custom_in-translate_y: 0px;
-  --animation-custom_in-opacity: 0;
-  --animation-custom_in-rotate: 0deg;
-  --animation-custom_in-scale: 1;
-}
-
-.u-section-6 .u-shape-2 {
   width: 938px;
   height: 517px;
   --animation-custom_in-translate_x: 0px;
@@ -1112,7 +1104,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.3;
-  margin: -187px calc(((100% - 1140px) / 2)) 0 auto;
+  margin: 231px calc(((100% - 1140px) / 2)) 0 auto;
 }
 
 .u-section-6 .u-image-1 {
@@ -1170,7 +1162,7 @@
     min-height: 779px;
   }
 
-  .u-section-6 .u-shape-2 {
+  .u-section-6 .u-shape-1 {
     width: 735px;
     height: 460px;
     margin-right: calc(((100% - 940px) / 2));
@@ -1204,13 +1196,8 @@
   }
 
   .u-section-6 .u-shape-1 {
-    height: 348px;
-  }
-
-  .u-section-6 .u-shape-2 {
     width: 563px;
     height: 620px;
-    margin-top: -117px;
     margin-right: calc(((100% - 720px) / 2));
   }
 
@@ -1230,7 +1217,7 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-6 .u-shape-2 {
+  .u-section-6 .u-shape-1 {
     width: 462px;
     height: 611px;
     margin-right: calc(((100% - 540px) / 2));
@@ -1258,13 +1245,8 @@
   }
 
   .u-section-6 .u-shape-1 {
-    height: 395px;
-  }
-
-  .u-section-6 .u-shape-2 {
     width: 320px;
     height: 567px;
-    margin-top: -164px;
     margin-right: calc(((100% - 340px) / 2));
   }
 
@@ -1281,7 +1263,11 @@
     margin-top: 39px;
     margin-right: calc(((100% - 340px) / 2));
   }
-}.u-section-7 .u-sheet-1 {
+} .u-section-7 {
+  background-image: none;
+}
+
+.u-section-7 .u-sheet-1 {
   min-height: 374px;
 }
 
