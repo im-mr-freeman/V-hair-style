@@ -38099,6 +38099,7 @@ a.u-link.u-text-hover-grey-90:hover {
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
+  font-size: 3rem;
   margin: -77px auto 31px;
 }
 @media (max-width: 1199px) {
@@ -38114,7 +38115,6 @@ a.u-link.u-text-hover-grey-90:hover {
     width: auto;
     margin-top: -77px;
     margin-bottom: 32px;
-    font-size: 3rem;
   }
 }
 
